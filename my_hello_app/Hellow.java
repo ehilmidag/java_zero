@@ -1,4 +1,12 @@
-public class Hello{
+public class Hellow{
+    public static void main(String[] args) {
+        Hello object = new Hello();
+        String answer = object.sayHi("hillheim");
+        System.out.println(answer);     
+    }
+}
+ 
+class Hello{
     String world = "world";
 
     public String sayHi(String who) {
@@ -8,7 +16,6 @@ public class Hello{
         else
             sentence = "hello " + world;
 
-        if
         return sentence;
     }
 }
